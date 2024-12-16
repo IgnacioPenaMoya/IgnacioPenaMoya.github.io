@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Índice de Juegos</title>
+</head>
+
+<body>
+    <!-- Contenedor inicial con el botón arcade -->
+    <div class="start-screen">
+        <button class="arcade-button" id="startButton">Start</button>
+    </div>
+
+    <!-- Contenido principal de la página -->
+    <video autoplay muted loop class="background-video">
+        <source src="arcade-machine.mp4" type="video/mp4">
+        Tu navegador no soporta videos HTML5.
+    </video>
+    <div class="overlay"></div>
+    <div class="center-name">Ignacio Peña Moya</div>
+    <div class="floating-buttons">
+        <a href="simon/simon.html" class="game-link" id="button1">Simon Dice</a>
+        <a href="tateti/tateti.html" class="game-link" id="button2">3 en Raya</a>
+        <a href="ajedrez/index.html" class="game-link" id="button3">Ajedrez</a>
+        <a href="buscaminas/index.html" class="game-link" id="button4">Busca Minas</a>
+        <a href="tetris/index.html" class="game-link" id="button5">Tetris</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
